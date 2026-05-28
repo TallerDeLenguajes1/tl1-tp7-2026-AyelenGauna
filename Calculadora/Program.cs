@@ -24,19 +24,19 @@ do
             case 1:
                     termino = double.Parse(Console.ReadLine());
                     calculadoraSimple.Sumar(termino);
-                    Console.WriteLine(calculadoraSimple.Resultado());
+                    Console.WriteLine(calculadoraSimple.Resultado);
 
                     break;
             case 2: 
                     termino = double.Parse(Console.ReadLine());
                     calculadoraSimple.Restar(termino);
-                    Console.WriteLine(calculadoraSimple.Resultado());
+                    Console.WriteLine(calculadoraSimple.Resultado);
 
                     break;
             case 3:
                     termino = double.Parse(Console.ReadLine());
                     calculadoraSimple.Multiplicar(termino);
-                    Console.WriteLine(calculadoraSimple.Resultado());
+                    Console.WriteLine(calculadoraSimple.Resultado);
 
                     break;
             case 4: 
@@ -47,7 +47,7 @@ do
 
                     } while (termino != 0);
 
-                    Console.WriteLine(calculadoraSimple.Resultado());
+                    Console.WriteLine(calculadoraSimple.Resultado);
 
                     break;
             default:
