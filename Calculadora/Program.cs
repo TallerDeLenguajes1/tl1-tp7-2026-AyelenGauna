@@ -6,7 +6,9 @@ double termino;
 //char continuar = '0';
 string opcion;
 
-Console.WriteLine("Que operacion desea realizar?");
+Console.WriteLine("***  CALCULADORA SIMPLE  ***");
+Console.WriteLine("(Esta calculadora realiza las operaciones sobre el resultado obtenido luego de realizar una)");
+Console.WriteLine("¿Que operacion desea realizar?");
 
 do
 {
@@ -45,7 +47,7 @@ do
                         termino = double.Parse(Console.ReadLine());
                         calculadoraSimple.Dividir(termino);
 
-                    } while (termino != 0);
+                    } while (termino == 0);
 
                     Console.WriteLine(calculadoraSimple.Resultado);
 

@@ -2,7 +2,8 @@ namespace EspacioCalculadora
 {
     public class Calculadora
     {
-        private double dato, resultado;
+        private double dato;
+        private double resultado;
         public double Resultado {get => resultado;}
 
         public void Sumar(double termino)
@@ -27,9 +28,6 @@ namespace EspacioCalculadora
             {
                 dato /= termino;
                 resultado = dato;
-            }else
-            {
-                Console.WriteLine("No se puede dividir sobre 0");
             }
         }
         public void Limpiar(double termino)
